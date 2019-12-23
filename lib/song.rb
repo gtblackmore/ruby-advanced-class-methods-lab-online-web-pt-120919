@@ -45,5 +45,5 @@ class Song
     artist_name = file[0]
     song_name = file[1].delete ".mp3"
     
-    
+  end
 end
