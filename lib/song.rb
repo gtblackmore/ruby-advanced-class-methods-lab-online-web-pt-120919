@@ -44,6 +44,9 @@ class Song
     file = filename.split(" - ")
     artist_name = file[0]
     song_name = file[1].delete ".mp3"
-    
+    song = self.new
+    song.name = song_name
+    song.artist_name = artist_name
+    song
   end
 end
